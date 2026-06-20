@@ -24,9 +24,19 @@ public class Main {
                 System.out.print("Enter Marks: ");
                 int marks = scanner.nextInt();
 
-                Student s = new Student(id, name, marks);
-                students.add(s);
+                if(marks>90){
+                    Student s=new TopperStudent(id,name,marks);
+                    //System.out.println("Topper Student");
+                    students.add(s);
+                }
+                else {
+
+                    Student s = new Student(id, name, marks);
+                    students.add(s);
+                }
                 System.out.println("Student added successfully!");
+
+
 
             } else if (choice == 2) {
                 if (students.isEmpty()) {

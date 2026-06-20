@@ -25,3 +25,7 @@ public class Student {
                 " | Marks: " + marks + " | Grade: " + grade);
     }
 }
+//My project uses classes and objects to represent Students,
+// Constructor to initializze data and auto calculate grades ,
+// Encapsulation by keeping student data & methods together in 1 class ,
+// Abstraction by hiding the display logic inside the student class.
