@@ -7,11 +7,25 @@ A console-based Java application to manage student records.
 - Auto-calculate grades (A/B/C/F)
 - View all students
 - Search student by ID
+- Topper detection with Scholarship award (marks >= 90)
+- Inheritance & Polymorphism via TopperStudent class
 
 ## Tech Stack
-- Java
+- Java 17
+- OOPs concepts 
+- ArrayList (Java Collections)
+- Git & GitHub (Version Control)
+
+## Concepts Used
+- Class & Object
+- Constructor
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
 - ArrayList
-- OOPs concepts
+- Exception Handling (coming soon)
+- MySQL Database (coming soon)
 
 ## How to Run
 1. Clone the repo
