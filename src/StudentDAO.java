@@ -22,7 +22,6 @@ public class StudentDAO {
     }
 
     // VIEW all students from database
-    // VIEW all students from database
     public void viewAllStudents() {
         int maxMarks = -1;
         TopperStudent topper = null;
