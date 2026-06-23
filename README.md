@@ -37,12 +37,12 @@ Database: `studentdb`
 
 Table: `students`
 
-| Column | Type            |
-|--------|------ ----------|
-| id     | INT PRIMARY KEY |
-| name   | VARCHAR(50)     |
-| marks  | INT             |
-| grade  | VARCHAR(2)      |
+| Column | Type |
+|--------|------|
+| id | INT PRIMARY KEY |
+| name | VARCHAR(50) |
+| marks | INT |
+| grade | VARCHAR(2) |
 
 ## How to Run
 
@@ -85,7 +85,6 @@ Main.java
 2. View All Students
 3. Search Student by ID
 4. Exit
-
 
 ## Author
 
